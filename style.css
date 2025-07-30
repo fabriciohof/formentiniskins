@@ -11,6 +11,11 @@ body {
   overflow-x: hidden
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 section {
   margin-bottom: 60px;
 }
@@ -121,8 +126,7 @@ section {
 /* Main */
 
 .hero-section {
-
-  padding: 20px;
+  padding:100px;
   text-align: center;
 
 }
@@ -130,8 +134,8 @@ section {
 .hero-section p {
   font-size: 20px;
   font-style: italic;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .hero-title {
@@ -176,11 +180,11 @@ section {
   display: inline-flex;
   align-items: center;
   padding: 10px 20px;
-  margin-right: 20px;
+  margin-right: 30px;
   background: #25D366;
   color: #fff;
   border-radius: 10px;
-  font-size: 1.3em;
+  font-size: 1.5rem;
   transition: .3s ease-in;
 }
 
@@ -194,7 +198,7 @@ section {
   background: #7289DA;
   color: #fff;
   border-radius: 10px;
-  font-size: 1.3em;
+  font-size:1.5rem;
   transition: .3s ease-in;
 }
 
@@ -230,7 +234,7 @@ section {
   color: #fff;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 10px rgba(255, 254, 254, 0.212);
   max-width: 750px;
   line-height: 1.8;
   font-size: 1.1rem;
@@ -276,13 +280,17 @@ section {
 
 .feature-box {
   width: 100%;
-  /* Deixa as boxes do mesmo tamanho  */
   max-width: 500px;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   line-height: 1.8;
   font-size: 1.1rem;
+  transition: ease .3s;
+}
+
+.feature-box:hover {
+  transform: scale(1.1);
 }
 
 /* Slider Section - feito com gemini pro */
@@ -565,11 +573,20 @@ footer p {
   font-size: 14px;
 }
 
-.btn-steam, .btn-github {
-  font-size: 24px;
-  color: black;
+.btn-github,
+.btn-steam {
+  display: inline-block;
+  padding: 5px;
+  color: #fff;
   text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
 }
 
+.btn-github:hover,
+.btn-steam:hover {
+  transform: scale(1.35);
+
+}
 
 

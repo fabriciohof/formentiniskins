@@ -9,6 +9,8 @@ window.addEventListener('scroll', function () {
 });
 
 
+
+
 // Mensagem personaliazada no WhatsApp
 document.addEventListener("DOMContentLoaded", function () {
     const numero = '5521984063033';

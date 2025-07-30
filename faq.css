@@ -34,9 +34,10 @@
 
 .btn-voltar i {
   font-size: 1.2rem;
+
 }
 
-
+/* header */
 
  header {
      text-align: center;
@@ -48,7 +49,10 @@
      color: #C9A96D;
  }
 
+ /* Section container */
+
  .faq-container {
+     width: 100%;
      max-width: 900px;
      margin: 0 auto;
 
@@ -113,3 +117,24 @@
  a:hover {
      text-decoration: underline;
  }
+
+
+ 
+/* Media query */
+@media (max-width: 576px) {
+    .faq-container {
+         width: 200%;
+    }
+  .faq-question::after {
+    display: none;
+  }
+
+  .btn-voltar {
+    position: absolute;
+  }
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -458,13 +458,17 @@ section {
   text-align: center;
   margin-top: 200px;
   margin-bottom:200px;
-  
-  
 }
 
 .cta-image {
   max-width: 250px;
   transform: rotate(90deg);
+  transition: ease-in .3s;
+  
+}
+
+.cta-image:hover {
+  transform: rotateY(180deg) scale(1.2);
   
 }
 

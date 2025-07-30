@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+    nav a {
+        font-size: 0;
+        
+    }
+
+    .hero-title {
+        width: 100%;
+    }
+
+    .feature-container,
+    .review-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+     .cta-section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .cta-image{
+        transform: rotate(0deg);
+        margin-bottom: 40px;
+        margin-top: 40px;
+        transition: ease-in .3s;
+    }
+
+    .cta-image:hover {
+        transform: rotateY(180deg) scale(1.5);
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

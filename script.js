@@ -9,8 +9,6 @@ window.addEventListener('scroll', function () {
 });
 
 
-
-
 // Mensagem personaliazada no WhatsApp
 document.addEventListener("DOMContentLoaded", function () {
     const numero = '5521984063033';
@@ -20,9 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const botao = document.getElementById("whatsapp-link");
     botao.href = link;
   });
-
-
-
 
 
 // Script para o slider de imagens (feito no gemini pro)

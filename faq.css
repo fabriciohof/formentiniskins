@@ -11,6 +11,10 @@
      padding: 150px;
  }
 
+ html {
+    overflow-x: hidden;
+ }
+
  .btn-voltar {
   position: fixed;
   top: 20px;

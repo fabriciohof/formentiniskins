@@ -58,14 +58,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   slides.forEach((slide, index) => {
     slide.addEventListener('mouseenter', () => {
-      // Limpa qualquer timer anterior se o mouse se mover para um novo slide rapidamente
+      
       clearTimeout(hoverTimeout);
 
-      // Cria um novo timer que só vai disparar após 200ms
+     
       hoverTimeout = setTimeout(() => {
         currentIndex = index;
         updateSlider();
-      }, 200); // 200ms de delay. Você pode ajustar este valor.
+      }, 200); 
     });
   });
 
@@ -90,4 +90,29 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// Função para alternar entre idiomas
+
+function alternarIdioma(toggle) {
+  const select = document.querySelector(".goog-te-combo");
+
+  if (select) {
+    select.value = toggle.checked ? "en" : "pt";
+    select.dispatchEvent(new Event("change"));
+  }
+}
+
+function traduzirParaIngles() {
+  const select = document.querySelector(".goog-te-combo");
+  if (select) {
+    select.value = "en";
+    select.dispatchEvent(new Event("change"));
+  }
+}
+
+function carregarTradutor() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'pt',
+    autoDisplay: false
+  }, 'google_translate_element');
+}
 

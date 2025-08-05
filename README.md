@@ -26,6 +26,20 @@ O Formentini Skins é uma landing page moderna e responsiva desenvolvida para pr
 
 - Conversão e Engajamento: Estrutura pensada para atrair e converter visitantes em potenciais clientes.
 
+## Imagens
+
+![topo](https://github.com/fabriciohof/formentiniskins/blob/main/assets/imgs/header.png)
+
+![sobre](https://github.com/fabriciohof/formentiniskins/blob/main/assets/imgs/sobre.png)
+
+![diferenciais](https://github.com/fabriciohof/formentiniskins/blob/main/assets/imgs/diferenciais.png)
+
+![galeria](https://github.com/fabriciohof/formentiniskins/blob/main/assets/imgs/galeria.png)
+
+![clientes](https://github.com/fabriciohof/formentiniskins/blob/main/assets/imgs/clientes.png)
+
+![fim](https://github.com/fabriciohof/formentiniskins/blob/main/assets/imgs/negociar.png)
+
 ## Feedback
 
 Se você tiver algum feedback, sugestão ou encontrar algum problema com o projeto, por favor, abra uma [issue](https://github.com/fabriciohof/portfolio/issues) aqui no GitHub. Todas as contribuições são bem-vindas!

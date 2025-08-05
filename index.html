@@ -19,26 +19,28 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <!-- AOS animation library-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 
 </head>
 
 <body>
 
     <!-- Switch de idiomas -->
-   <div class="switch-container">
-    <!-- <label class="switch-label">Idioma:</label> -->
-       <label class="switch">
-         <input type="checkbox" id="toggleTraducao" onchange="alternarIdioma(this)">
-         <span class="slider-button">
-        <span class="label-text pt">PT</span>
-        <span class="label-text en">EN</span>
-         </span>
-       </label>
-   </div>
+    <div class="switch-container">
+        <!-- <label class="switch-label">Idioma:</label> -->
+        <label class="switch">
+            <input type="checkbox" id="toggleTraducao" onchange="alternarIdioma(this)">
+            <span class="slider-button">
+                <span class="label-text pt">PT</span>
+                <span class="label-text en">EN</span>
+            </span>
+        </label>
+    </div>
 
-      <div id="google_translate_element" style="display: none;"></div> 
-   
-      
+    <div id="google_translate_element" style="display: none;"></div>
+
+
     <!-- Header -->
     <header class="header-section navbar-scrolled">
 
@@ -53,10 +55,10 @@
 
 
 
-        <nav >
+        <nav>
 
-        
-            <ul class="" >
+
+            <ul class="">
                 <li><a href="#home">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#differential">Comprar</a></li>
@@ -72,14 +74,17 @@
 
     <main>
 
-        <section class="hero-section" id="home">
+        <section class="hero-section" id="home" data-aos="fade-in" data-aos-duration="1500">
             <div class="hero-title">
-                <h1 class="animated-gradient">Troque ou Venda Suas Skins de CS2 com Segurança e o Melhor Valor!</h1>
-                <h2 class="animated-gradient">+4.000 trades realizadas. </h2>
-                <h2 class="animated-gradient">Atendimento rápido, direto e confiável.</h2>
+                <h1 class="animated-gradient" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">Troque ou
+                    Venda Suas Skins de CS2 com Segurança e o Melhor Valor!</h1>
+                <h2 class="animated-gradient" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">+4.000
+                    trades realizadas. </h2>
+                <h2 class="animated-gradient" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                    Atendimento rápido, direto e confiável.</h2>
             </div>
 
-            <p>Negocie agora via Whatsapp ou Discord</p>
+            <p data-aos="fade" data-aos-delay="700" data-aos-duration="800">Negocie agora via Whatsapp ou Discord</p>
 
             <a href="https://wa.me/5521984063033" class="whatsapp-button" target="_blank"> <i
                     class="bi bi-whatsapp"></i> </a>
@@ -88,27 +93,30 @@
 
         </section>
 
-        <section class="about-section" id="about">
+        <section class="about-section" id="about" data-aos="fade-up" data-aos-duration="1000">
             <div class="about-container">
-                <h1> Sobre mim</h1>
-                <img src="assets/eu.jpg" alt="Formentini" class="about-image">
-                <div class="about-box">
+                <h1 data-aos="fade-down" data-aos-delay="100">Sobre mim</h1>
+
+                <img src="assets/eu.jpg" alt="Formentini" class="about-image" data-aos="fade-right" data-aos-delay="300"
+                    data-aos-duration="1000">
+
+                <div class="about-box" data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000">
                     <p>
                         Olá! Me chamo <span id="span-name">Formentini</span>, sou trader na compra e venda de skins no
-                        Counter-Strike. <br> Atuo nesse mercado com seriedade e paixão há anos, sempre buscando oferecer
-                        as
-                        melhores oportunidades para quem quer lucrar ou colecionar com confiança.
+                        Counter-Strike.
+                        <br>Atuo nesse mercado com seriedade e paixão há anos, sempre buscando oferecer as melhores
+                        oportunidades
+                        para quem quer lucrar ou colecionar com confiança.
                     </p>
                     <p>
                         Com mais de <span id="span-value">4.721 transações concluídas</span> e mais de <span
-                            id="span-value"> R$ 42.351
+                            id="span-value">R$ 42.351
                             movimentados</span>, construí uma reputação baseada em <strong>transparência</strong>,
                         <strong>atendimento personalizado</strong> e <strong>preço justo</strong>.
                     </p>
                     <p>
-                        Se você busca um parceiro de confiança no universo das skins, conte comigo. <br> Estou aqui para
-                        te
-                        ajudar a fazer as melhores escolhas e garantir sempre o melhor valor!
+                        Se você busca um parceiro de confiança no universo das skins, conte comigo.
+                        <br>Estou aqui para te ajudar a fazer as melhores escolhas e garantir sempre o melhor valor!
                     </p>
                 </div>
             </div>
@@ -120,7 +128,7 @@
             <h1>Diferenciais</h1>
 
             <article>
-                <div class="feature-container">
+                <div class="feature-container" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800">
                     <div class="feature-box">
                         <h2>🔒 Confiabilidade Total</h2>
                         <p>Negociações com provas, histórico transparente e reputação sólida.</p>
@@ -142,7 +150,7 @@
 
         <!-- section feita no gemini pro -->
         <section class="slider-section">
-            <div class="slider-container">
+            <div class="slider-container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <div class="slider">
                     <div class="slide"><img src="assets/sliderphoto1.jpg" alt="Ak midnight laminate"></div>
                     <div class="slide"><img src="assets/sliderphoto2.jpeg" alt="M4a1 printstream"></div>
@@ -164,26 +172,26 @@
 
 
         <section class="review-section">
-            <h1>Depoimento de Clientes</h1>
+            <h1 data-aos="fade-up" data-aos-duration="2000">Depoimento de Clientes</h1>
             <div class="line"></div>
 
 
             <div class="review-container">
-                <div class="review">
+                <div class="review" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                     <h2>João Silva</h2>
                     <p>Serviço excelente! Negociação rápida e sem complicações. Recomendo muito!</p>
                     <i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
                         class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
                         class="bi bi-star-fill star"></i>
                 </div>
-                <div class="review">
+                <div class="review" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-offset="200" data-aos-duration="1000">
                     <h2>Maria Oliveira</h2>
                     <p>Fiquei surpresa com a agilidade e a honestidade. Voltarei a negociar!</p>
                     <i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
                         class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
                         class="bi bi-star-half star"></i>
                 </div>
-                <div class="review">
+                <div class="review" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                     <h2>Carlos Santos</h2>
                     <p>Atendimento direto e confiável. A skin chegou na hora certa!</p>
                     <i class="bi bi-star-fill star"></i><i class="bi bi-star-fill star"></i><i
@@ -229,9 +237,18 @@
 
     </main>
 
-   
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            disable: 'mobile', // Desativa em dispositivos móveis
+            once: true, // Anima apenas uma vez
+        });
+    </script>
+
     <script src="script.js"></script>
+
     <script src="https://translate.google.com/translate_a/element.js?cb=carregarTradutor"></script>
+
 
 </body>
 

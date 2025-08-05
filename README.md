@@ -50,4 +50,5 @@ Se você tiver algum feedback, sugestão ou encontrar algum problema com o proje
 
 ## Autor
 
-- [@fabriciohof](https://www.github.com/fabriciohof)
+- 🐱[@fabriciohof](https://www.github.com/fabriciohof)
+- 🔗[LinkedIn](https://www.linkedin.com/in/fformentini/)  

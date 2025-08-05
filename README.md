@@ -26,6 +26,10 @@ O Formentini Skins é uma landing page moderna e responsiva desenvolvida para pr
 
 - Conversão e Engajamento: Estrutura pensada para atrair e converter visitantes em potenciais clientes.
 
+## Deploy
+
+![Netlify](https://img.shields.io/badge/-netlify-blue?style=for-the-badge&logo=netlify&logoColor=green)
+
 ## Imagens
 
 ![topo](https://github.com/fabriciohof/formentiniskins/blob/main/assets/imgs/header.png)
